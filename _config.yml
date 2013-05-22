@@ -6,6 +6,10 @@ disqus_shortname: # disqus comment thread for post header options. ( leave blank
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
+insitelinks:
+  - name:         About
+    url:          /about
+    
 links: 
   - name:         Blog
     url:          http://muan.co
