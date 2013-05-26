@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://YOUR_DOMAIN.TLD/sitemap.xml
