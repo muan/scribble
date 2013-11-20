@@ -20,6 +20,7 @@ links:
     external:     true
 pygments:         true
 permalink:        pretty
-markdown:         rdiscount
-rdiscount:
-  extensions:     [smart]
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart

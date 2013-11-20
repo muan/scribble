@@ -1,4 +1,3 @@
 source 'http://rubygems.org'
 
-gem 'jekyll'
-gem 'rdiscount'
+gem 'jekyll', :git => 'git://github.com/mojombo/jekyll.git'
