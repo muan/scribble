@@ -178,9 +178,8 @@ section.post {
   text-align: left;
   border-top: 0; 
   padding: 0;
-  > *:not(.highlight) { padding: 0 60px; }
-  > ul, > ol { padding: 0 80px; }
-  ul, ol { ul, ol { margin-left: 20px; } }
+  > * { padding: 0 60px; }
+  ul, ol { ul, ol { margin-left: 20px; padding: 0; } }
   h1 {
     text-transform: uppercase;
     text-align: center;
@@ -226,13 +225,13 @@ section.post, section > p {
       white-space: normal;
     }
   }
-  li .highlight { margin: 10px 0; }
+  li .highlight { padding: 0 10px; }
   li p { margin-bottom: 5px; }
 }
 .highlight { margin: 0; padding: 0; }
 pre {
   overflow-x: auto;
-  padding: 10px 60px;
+  padding: 10px 0;
   width: 100%;
   line-height: 1.2em;
   @include box-sizing(border-box);
