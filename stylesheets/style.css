@@ -242,12 +242,11 @@ section.post {
   text-align: left;
   border-top: 0;
   padding: 0; }
-  section.post > *:not(.highlight) {
+  section.post > * {
     padding: 0 60px; }
-  section.post > ul, section.post > ol {
-    padding: 0 80px; }
   section.post ul ul, section.post ul ol, section.post ol ul, section.post ol ol {
-    margin-left: 20px; }
+    margin-left: 20px;
+    padding: 0; }
   section.post h1 {
     text-transform: uppercase;
     text-align: center;
@@ -307,7 +306,7 @@ section.post, section > p {
       width: 7px !important;
       white-space: normal; }
   section.post li .highlight, section > p li .highlight {
-    margin: 10px 0; }
+    padding: 0 10px; }
   section.post li p, section > p li p {
     margin-bottom: 5px; }
 
@@ -317,7 +316,7 @@ section.post, section > p {
 
 pre {
   overflow-x: auto;
-  padding: 10px 60px;
+  padding: 10px 0;
   width: 100%;
   line-height: 1.2em;
   -webkit-box-sizing: border-box;
