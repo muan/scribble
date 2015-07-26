@@ -25,6 +25,8 @@ redcarpet:
   extensions:
     - smart
 
+exclude: [Rakefile README.md]
+
 defaults:
   -
     scope:
