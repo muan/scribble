@@ -1,17 +1,17 @@
-<link href='/images/fav.png' rel='shortcut icon'>
+<link href='{{ site.url }}/images/fav.png' rel='shortcut icon'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css' />
-<link href='/stylesheets/style.css' rel='stylesheet' type='text/css' />
-<link href='/stylesheets/syntax.css' rel='stylesheet' type='text/css' />
-<link href='/stylesheets/responsive.css' rel='stylesheet' type='text/css' />
+<link href='{{ site.url }}/stylesheets/style.css' rel='stylesheet' type='text/css' />
+<link href='{{ site.url }}/stylesheets/syntax.css' rel='stylesheet' type='text/css' />
+<link href='{{ site.url }}/stylesheets/responsive.css' rel='stylesheet' type='text/css' />
 <!-- - -->
-<script src='/javascripts/jquery.js' type='text/javascript'></script>
-<script src='/javascripts/pd.js' type='text/javascript'></script>
-<script src='/javascripts/basics.js' type='text/javascript'></script>
+<script src='{{ site.url }}/javascripts/jquery.js' type='text/javascript'></script>
+<script src='{{ site.url }}/javascripts/pd.js' type='text/javascript'></script>
+<script src='{{ site.url }}/javascripts/basics.js' type='text/javascript'></script>
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <!-- - -->
 <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
 <meta content='text/html; charset=utf-8' http-equiv='content-type' />
-<meta content="http://muan.co/images/og.png" property="og:image" />
+<meta content="{{ site.url }}/og.png" property="og:image" />
 <meta content="{{ site.facebook_appid }}" property="fb:app_id" />
 {% if page.date %}
   <meta content='{{ site.url }}{{ page.url }}' property='og:url' />

@@ -1,6 +1,6 @@
 title:            Scribble
 description:      A jekyll theme. Because I scribble.
-url:              # Site url.
+url:              # Site url, without a slash at the end.
 signoff:          # Your name.
 disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
@@ -11,9 +11,6 @@ links:
     url:          /about
   - name:         Blog
     url:          http://muan.co
-    external:     true
-  - name:         Email
-    url:          mailto:hello@muan.co
     external:     true
   - name:         GitHub
     url:          http://github.com/muan
