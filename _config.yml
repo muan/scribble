@@ -1,8 +1,8 @@
-title:            Scribble
-description:      A jekyll theme. Because I scribble.
-url:              # Site url, without a slash at the end.
-signoff:          # Your name.
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+title:            Maxat Ku's blog
+description:      Blog about software development and books
+url:              http://www.kmaxat.github.io
+signoff:          Maxat Ku
+disqus_shortname: kmaxat
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
@@ -10,10 +10,10 @@ links:
   - name:         About
     url:          /about
   - name:         Blog
-    url:          http://muan.co
+    url:          http://www.kmaxat.github.io
     external:     true
   - name:         GitHub
-    url:          http://github.com/muan
+    url:          http://github.com/kmaxat
     external:     true
 highlighter:      pygments
 permalink:        pretty
