@@ -305,12 +305,12 @@ section.post, section > p {
       display: block;
       width: 7px !important;
       white-space: normal; }
-  section.post li .highlight, section > p li .highlight {
+  section.post li .highlighter-rouge, section > p li .highlighter-rouge {
     padding: 0 10px; }
   section.post li p, section > p li p {
     margin-bottom: 5px; }
 
-.highlight {
+.highlighter-rouge {
   margin: 0;
   padding: 0; }
 
