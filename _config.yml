@@ -1,20 +1,19 @@
-title:            Scribble
-description:      A jekyll theme. Because I scribble.
-url:              # Site url, without a slash at the end.
-signoff:          # Your name.
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
-facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
-google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+title:            Kickass Product Manager
+description:      Articles & Tools to be a Kickass Product Manager .
+url:              http://www.kickassproductmanager.com.
+signoff:          Jai.
+disqus_shortname: kickassproductmanager
+facebook_appid:   973460676077938
+google_analytics: UA-75403228-1
 
 links:
-  - name:         About
-    url:          /about
-  - name:         Blog
-    url:          http://muan.co
-    external:     true
-  - name:         GitHub
-    url:          http://github.com/muan
-    external:     true
+#  - name:         About
+#    url:          /about
+#  - name:         Blog
+#    url:          http://muan.co
+#    external:     true
+  - name:         Home
+    url:          http://www.kickassproductmanager.com/
 highlighter:      pygments
 permalink:        pretty
 markdown:         redcarpet
