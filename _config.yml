@@ -1,20 +1,27 @@
-title:            Scribble
+title:            Wojtek Kokorzycki
 description:      A jekyll theme. Because I scribble.
 url:              # Site url, without a slash at the end.
-signoff:          # Your name.
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+signoff:          Wojtek Kokorzycki # Your name.
+disqus_shortname: wojtek-kokorzycki-pl # disqus comment thread for post header options. ( leave blank if unwanted. )
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
-google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+google_analytics: wojtekkokorzyckipl # set tracking, remove from /javascripts/basic.js if unwanted.
 
 links:
   - name:         About
     url:          /about
   - name:         Blog
-    url:          http://muan.co
+    url:          /
+    external:     false
+  - name:         Linkedin
+    url:          https://www.linkedin.com/in/kokorzycki
     external:     true
-  - name:         GitHub
-    url:          http://github.com/muan
+  - name:         Github
+    url:          https://github.com/ksiadz
     external:     true
+  - name:         Facebook
+    url:          https://www.facebook.com/wojciech.kokorzycki
+    external:     true
+
 highlighter:      pygments
 permalink:        pretty
 markdown:         redcarpet

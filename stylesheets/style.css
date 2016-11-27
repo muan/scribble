@@ -1,5 +1,5 @@
 h1, h2, h3, h4, h5, strong, b {
-  font-weight: 600; }
+  font-weight: 500; }
 
 html, body {
   height: 100%; }
@@ -147,7 +147,12 @@ footer {
 
 a, .as-link {
   text-decoration: none;
-  color: #269;
+  color: rgb(0, 0, 0); /*#269;*/
+  /* added line under links */
+  /*background-image: url(/images/line.png); */
+  /*background-repeat: repeat-x;*/
+  /*background-position: left bottom;*/
+  /* end of changes */
   line-height: 1.4em;
   display: inline-block;
   vertical-align: baseline;
@@ -160,7 +165,7 @@ a, .as-link {
   -o-transition: color 0.3s;
   transition: color 0.3s; }
   a.main, a:hover, .as-link.main, .as-link:hover {
-    color: #1d5884;
+    color: rgb(0, 0, 0); /* #1d5884;*/
     background-image: url(/images/line.png);
     background-repeat: repeat-x;
     background-position: left bottom; }
@@ -248,7 +253,7 @@ section.post {
     margin-left: 20px;
     padding: 0; }
   section.post h1 {
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     text-align: center;
     line-height: 1.5em;
     margin-bottom: 60px; }
@@ -360,3 +365,8 @@ img {
   margin-left: -340px; }
 .paging .right {
   margin-left: 320px; }
+.img-circle {
+  border-radius: 50%;
+  width: 120px;
+  height: auto;
+}
