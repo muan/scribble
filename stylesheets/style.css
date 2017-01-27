@@ -310,7 +310,7 @@ section.post, section > p {
   section.post li p, section > p li p {
     margin-bottom: 5px; }
 
-.highlight {
+.highlighter-rouge {
   margin: 0;
   padding: 0; }
 
@@ -321,7 +321,8 @@ pre {
   line-height: 1.2em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+  margin: 13px 0; }
 
 code {
   font-size: 13px;

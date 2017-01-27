@@ -1,5 +1,5 @@
 .highlight { font-size: 13px; }
-.highlight, .highlight code, .highlight pre  { background: #29281e; }
+.highlighter-rouge, .highlight, .highlight code { background: #29281e; }
 .highlight code { padding: 0; }
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
