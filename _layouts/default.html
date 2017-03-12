@@ -25,7 +25,7 @@
       </nav>
 
       {% if is_post %}{% include pagination.html %}{% endif %}
-      <main class="tl f6 relative pa4 pa5-ns">
+      <main class="tl f6 relative pa4 pa5-ns overflow-hidden">
         {% if page.title %}
           <div class="mb4">
             {% if page.date %}<div class="fw600 light-silver mt1">{{ page.date | date_to_string }}</div>{% endif %}
