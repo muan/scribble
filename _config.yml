@@ -1,19 +1,22 @@
-title:            Scribble
-description:      A jekyll theme. Because I scribble.
+# ----------- CONFIGURABLE START -----------
+title:            "Scribble"
+description:      "Such theme, very cool."
 url:              # Site url, without a slash at the end.
-signoff:          # Your name.
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
+signoff:          "muan" # Your name
 facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+share:            false # turn on twitter and facebook share buttons
 
 links:
-  - name:         About
+  - name:         Posts
+    url:          /
+    external:     false
+  - name:         About me
     url:          /about
-  - name:         Blog
-    url:          http://muan.co
-    external:     true
-  - name:         GitHub
-    url:          http://github.com/muan
-    external:     true
+    external:     false
+# ------------ CONFIGURABLE END ------------
 
-permalink:        pretty
+permalink:        /posts/:title
+defaults:
+  - values:
+      layout: "default"
