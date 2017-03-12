@@ -306,7 +306,7 @@ section.post, section > p {
       width: 7px !important;
       white-space: normal; }
   section.post li .highlight, section > p li .highlight {
-    padding: 0 10px; }
+    padding: 10px; }
   section.post li p, section > p li p {
     margin-bottom: 5px; }
 
@@ -314,7 +314,7 @@ section.post, section > p {
   margin: 0;
   padding: 0; }
 
-pre {
+pre, .highlighter-rouge > pre {
   overflow-x: auto;
   padding: 10px 0;
   width: 100%;
