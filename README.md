@@ -12,7 +12,7 @@ A Jekyll theme. [Demo :point_left:](http://scribble.muan.co/posts/scribble-the-j
 
 3. Run `bundle install`
 
-4. Run Jekyll: `jekyll serve -w`
+4. Run Jekyll: `bundle exec jekyll serve -w`
 
 5. Go to http://localhost:4000 for your site.
 
