@@ -2,6 +2,8 @@
 
 .bg-super-white { background: #f9f9f9; }
 .top-50 { top: 50% }
+.pointers { pointer-events: auto; }
+.no-pointers { pointer-events: none; }
 .link:hover { background: url(/images/line.png) repeat-x left bottom; }
 
 /* Markdown styles */
