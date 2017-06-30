@@ -2,8 +2,15 @@
 <!doctype>
 <html lang="en">
   <head>
-    <meta content='{{ page.title }} - {{ site.title }}' name='title' />
-    <meta content='{{ page.title }} - {{ site.title }}' name='og:title' />
+    {% if page.title %}
+      <meta content='{{ page.title }} - {{ site.title }}' name='title' />
+      <meta content='{{ page.title }} - {{ site.title }}' name='og:title' />
+      <title>{{ page.title }} - {{ site.title }}</title>
+    {% else %}
+      <meta content='{{ site.title }}' name='title' />
+      <meta content='{{ site.title }}' name='og:title' />
+      <title>{{ site.title }}</title>
+    {% endif %}
     <title>{{ page.title }} - {{ site.title }}</title>
     {% include head.html %}
   </head>
