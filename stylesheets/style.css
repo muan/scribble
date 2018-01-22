@@ -31,4 +31,17 @@
   border-left: .2rem solid #ccc;
   padding-left: 3.8rem;
 }
+.markdown-body table {
+  font-size: inherit;
+  width: 100%;
+  margin-bottom: 2em;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.markdown-body table th,
+.markdown-body table td {
+  padding: .8em .4em;
+  border-bottom: 1px solid #CCC;
+  border-bottom-color: rgba(0,0,0,0.2);
+}
 /* end Markdown styles */
