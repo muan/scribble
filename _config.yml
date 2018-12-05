@@ -1,18 +1,22 @@
 # ----------- CONFIGURABLE START -----------
-title:            "Scribble"
-description:      "Such theme, very cool."
-url:              http://scribble.muan.co # Site url, without a slash at the end.
-signoff:          "muan" # Your name
-facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
-google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
+title:            "10000 Tage"
+description:      "Ein Blog über Web Development und Selbstentwicklung"
+url:              https://beiweitemderbeste.github.io # Site url, without a slash at the end.
+signoff:          # Your name
 share:            false # Turn on twitter and facebook share buttons
 
 links:
-  - name:         Posts
+  - name:         Beiträge
     url:          /
     external:     false
-  - name:         About me
+  - name:         Zeitlinie
+    url:          /zeitlinie
+    external:     false
+  - name:         Über
     url:          /about
+    external:     false
+  - name:         Rohstoffe
+    url:          /rohstoffe
     external:     false
 # ------------ CONFIGURABLE END ------------
 
