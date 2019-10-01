@@ -1,25 +1,23 @@
+---
+permalink: /404.html
+layout: null
+---
+
 <html>
   <head>
     <meta content='Scribble' property='og:title' />
     <title>Scribble</title>
     <link href='{{ site.url }}/images/fav.png' rel='shortcut icon'>
-    <link href='{{ site.url }}/stylesheets/style.css' rel='stylesheet' type='text/css' />
-    <link href='{{ site.url }}/stylesheets/responsive.css' rel='stylesheet' type='text/css' />
-    <!-- - -->
-    <script src='{{ site.url }}/javascripts/jquery.js' type='text/javascript'></script>
-    <!-- - -->
+    <link rel="stylesheet" href="{{ site.url }}/stylesheets/style.css"/>
     <meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
     <meta content='text/html; charset=utf-8' http-equiv='content-type' />
     <meta content='{{ site.url }}' property='og:url' />
-    <meta content="A jekyll theme. Because I scribble." property='og:description' />
+    <meta content="{{ site.description }}" property='og:description' />
     <meta content="blog" property="og:type" />
   </head>
-  <body>
-    <div class="a-c">
-      <img src="{{ site.url }}/images/404.png" alt="not found" width="160" />
-      <p>
-        <a href="{{ site.url }}" class="main" target="_top">Back</a>
-      </p>
+  <body class="lh-copy dark-gray ph3 pv5 f6 sans-serif tc bg-super-white">
+      <img src="{{ site.url }}/images/404.png" alt="not found" width="160" class="mb3" /><br>
+      <a href="{{ site.url }}" class="link blue hover-gray">Home</a>
     </div>
   </body>
 </html>

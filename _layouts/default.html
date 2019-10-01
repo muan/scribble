@@ -1,0 +1,55 @@
+{% assign is_post = page.date %}
+<!doctype>
+<html lang="en">
+  <head>
+    <meta content='{{ page.title }} - {{ site.title }}' name='title' />
+    <meta content='{{ page.title }} - {{ site.title }}' name='og:title' />
+    <title>{{ page.title }} - {{ site.title }}</title>
+    {% include head.html %}
+  </head>
+  <body class="lh-copy dark-gray pa0 f6 sans-serif bg-super-white">
+    <header class="tc mt4">
+      <a href="{{ site.url }}">
+        <img src="{{ site.url }}/images/scribble.png" alt="Home" width="53" height="59">
+      </a>
+      <p>{{ site.title }}</p>
+    </header>
+    <div class="mw7 bg-white mt4 mb3 center br2-ns bt bb ba-ns b--light-gray">
+      <nav class="bb b--light-gray pv4 tc" aria-label="Main">
+        {% for link in site.links %}
+          <a class="link blue hover-mid-gray mh2 pv1"
+             href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">
+             {{ link.name }}
+           </a>
+        {% endfor %}
+      </nav>
+
+      <main class="tl f6 relative pa4 pa5-ns overflow-hidden">
+        {% if page.title %}
+          <div class="mb4">
+            {% if page.date %}<div class="fw600 light-silver mt1">{{ page.date | date_to_string }}</div>{% endif %}
+            <h1 class="ttu f3 mt0 lh-title cb mb2">
+              {% if is_post %}
+              {% endif %}
+              {{ page.title }}
+            </h1>
+            {% if is_post and site.share %}
+              <a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              <div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="arial" data-action="like"></div>
+            {% endif %}
+          </div>
+        {% endif %}
+        <div class="markdown-body">
+          {{ content }}
+        </div>
+        {% if is_post %}{% include signoff.html %}{% endif %}
+      </main>
+      {% if is_post %}{% include pagination.html %}{% endif %}
+    </div>
+    <footer class="mw7 center tc pt3 pb4 silver">
+      Built with Jekyll using <a href="http://github.com/muan/scribble" class="link silver hover-blue pv1">Scribble</a>.
+      <img src="{{ site.url }}/images/scribble2.png" alt="scribble" class="mt4 db center" />
+    </footer>
+  </body>
+</html>
