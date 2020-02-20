@@ -1,8 +1,8 @@
 # ----------- CONFIGURABLE START -----------
-title:            "Scribble"
-description:      "Such theme, very cool."
-url:               # Site url, without a slash at the end.
-baseurl:          
+title:            "George Ball"
+description:      ""
+url:              https://georgeball95.github.io # Site url, without a slash at the end.
+baseurl:          ""
 signoff:          "muan" # Your name
 facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
