@@ -6,6 +6,7 @@
 
 /* Markdown styles */
 .markdown-body a {
+  font-family: Liberation Sans, Arial, Geneva, Helvetica, sans-serif;
   text-decoration: none;
   color: #357edd;
 }
