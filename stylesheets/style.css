@@ -10,6 +10,13 @@
   text-decoration: none;
   color: #357edd;
 }
+
+.markdown-body a:visited {
+  font-family: Liberation Sans, Arial, Geneva, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #357edd;
+}
+
 .markdown-body .highlighter-rouge {
   font-family: Liberation Sans, Arial, Geneva, Helvetica, sans-serif;
   padding: .25rem .5rem;
