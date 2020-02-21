@@ -11,23 +11,28 @@
   color: #357edd;
 }
 .markdown-body .highlighter-rouge {
+  font-family: Liberation Sans, Arial, Geneva, Helvetica, sans-serif;
   padding: .25rem .5rem;
 }
 .markdown-body pre {
+  font-family: Liberation Sans, Arial, Geneva, Helvetica, sans-serif;
   margin: 0;
   overflow: auto;
 }
 .markdown-body > .highlighter-rouge,
 .markdown-body > blockquote {
+  font-family: Liberation Sans, Arial, Geneva, Helvetica, sans-serif;
   padding: .5rem 4rem;
   margin: 2em -4rem;
 }
 .markdown-body > hr {
+  font-family: Liberation Sans, Arial, Geneva, Helvetica, sans-serif;
   margin: 2em -4rem;
   border: 0;
   border-bottom: 1px dotted #CCC;
 }
 .markdown-body blockquote {
+  font-family: Liberation Sans, Arial, Geneva, Helvetica, sans-serif;
   background: #f9f9f9;
   border-left: .2rem solid #ccc;
   padding-left: 3.8rem;
