@@ -26,7 +26,7 @@
       <main class="tl f6 relative pa4 pa5-ns overflow-hidden">
         {% if page.title %}
           <div class="mb4">
-            {% if page.date %}<div class="fw600 light-silver mt1">{{ page.date | date_to_string }}</div>{% endif %}
+            {% if page.date %}<div class="fw600 light-silver mt1">{{ page.date | date_to_long_string }}</div>{% endif %}
             <h1 class="ttu f3 mt0 lh-title cb mb2">
               {% if is_post %}
               {% endif %}
